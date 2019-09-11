@@ -8,7 +8,7 @@ public class Main {
         Utils option = new Utils();
         boolean endlessLoop = true;
         Scanner userInput = new Scanner(System.in);
-
+     
         while (endlessLoop) {
             System.out.println("Please chose one of the following options.");
             option.fuelOptions();
