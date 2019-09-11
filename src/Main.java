@@ -8,7 +8,7 @@ public class Main {
         Utils option = new Utils();
         boolean endlessLoop = true;
         Scanner userInput = new Scanner(System.in);
-     
+
         while (endlessLoop) {
             System.out.println("Please chose one of the following options.");
             option.fuelOptions();
@@ -71,51 +71,6 @@ public class Main {
 
 
         }
-
-
-//
-//
-//        while (endlessLoop) {
-//            System.out.println("Please choose one of the following options");
-//
-//            options.options();
-//
-//
-//            char optionChoose = userInput.next().charAt(0);
-//
-//            switch (optionChoose) {
-//
-//                case 'a':
-//
-//                    System.out.println("PLease input the amount of fuel you want. (1L = 5.50Lej)");
-//
-//                    while (!userInput.hasNextDouble()) {
-//                        System.out.println("Your input was incorrect. Do not add any letters to the amount.");
-//                        userInput.next();
-//                    }
-//                    fuelA = userInput.nextDouble();
-//                    tank.fueling(fuelA);
-//                    System.out.println(tank);
-//                    break;
-//
-//                case 'b':
-//                    options.fuelOptions();
-//                    char fuelO = userInput.next().charAt(0);
-//
-//                    tank.automaticRefuel(fuelO);
-//
-//
-//                    break;
-//
-//
-//                case 'e':
-//
-//                    endlessLoop = false;
-//                    break;
-//
-//
-//            }
-
 
     }
 

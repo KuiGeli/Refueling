@@ -3,19 +3,19 @@ public class FuelTank {
     private double tank = 0;
     private double priceOfFuel = 5.5;
 
-    public void fueling (double petrol){
+    public void fueling(double petrol) {
 
         tank = tank + petrol;
 
     }
 
-    public String toString (){
+    public String toString() {
 
         return String.valueOf("Your tank has " + tank + "L of fuel in it.");
 
     }
 
-    public double costOfRefuel(){
+    public double costOfRefuel() {
 
         return tank * priceOfFuel;
     }
